@@ -1,0 +1,5 @@
+(executable
+ (public_name slc)
+ (name main)
+ (libraries slc)
+ (modules Parser Lexer Runner X86 Types Main))
